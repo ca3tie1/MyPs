@@ -105,7 +105,7 @@
         "[*] The EXE FILE Using '$EXEPath'`n"
         
         # Execute Time Sleep seconds between LNK Targetpath and EXEPah
-        $SleepTime = ""
+        $SleepTime = ";"
         if($Sleep){
             $SleepTime = ";Start-Sleep -Seconds $Sleep;"
         }
